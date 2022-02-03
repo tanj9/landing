@@ -13,3 +13,21 @@
 .container h2 {
   font-size: 32px;
 }
+
+@media (max-width: 960px) {
+  .container {
+    width: 650px;
+  }
+  .container-cards {
+    display: block;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+  .container-cards {
+    display: block;
+  }
+}
