@@ -1,0 +1,37 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;500;700&family=JetBrains+Mono:wght@100;300;700&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Importing all components file */
+@import url("components/banner.css");
+@import url("components/container.css");
+@import url("components/cards.css");
+@import url("components/button.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+
+/* Utilities */
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+p {
+  color: rgb(180,180,180);
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.text-green {
+  color: #2ef051;
+}

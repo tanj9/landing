@@ -1,0 +1,28 @@
+.footer {
+  background-color: rgb(20,20,20);;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-social-networks {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  color: #2ef051;
+}
+
+.footer p i {
+  color: red;
+}
+
+.footer-social-networks i {
+  color: #2ef051;
+  opacity: 0.5;
+}
+
+.footer-social-networks i:hover {
+  opacity: 1;
+}

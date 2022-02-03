@@ -1,0 +1,15 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.container h2 {
+  font-size: 32px;
+}
